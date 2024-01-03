@@ -1,0 +1,54 @@
+.header_css {
+  background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 30rem;
+  height: auto;
+  width: 100%;
+}
+
+.header_css h1 {
+  font-size: 5rem;
+}
+
+@media (min-width: 992px) {
+  .header_css {
+    height: 100vh;
+  }
+}
+
+.section_content {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.section_content_heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.section_content_heading h2 {
+  font-size: 3rem;
+}
+
+.services_icon {
+  background-color: white;
+  color: brown;
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7.5rem;
+  font-size: 2.5rem;
+}
+
+.text-faded {
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.btn-xl {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
